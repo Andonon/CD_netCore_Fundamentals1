@@ -22,9 +22,6 @@ namespace first_csharp
                 int currsumstrlastdigit = 0;
 
                 for(int x = 0; x < strval.Length; x++){
-                    
-
-
 
                     // If the last number is one of the known modulo values, print. 
                     if(currsumstrlastdigit == 3 || currsumstrlastdigit == 6 || currsumstrlastdigit == 9)
